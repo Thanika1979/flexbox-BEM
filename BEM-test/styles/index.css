@@ -1,0 +1,45 @@
+header {
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px; 
+
+}
+
+.card {
+    max-width: 200px;
+    min-height: 300px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    justify-content: center;
+    bottom: 10px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    background-color: rgb(238, 238, 79);
+}
+
+.btn--success {
+    background-color: rgb(5, 197, 5);
+}
+
+.btn--decline {
+    background-color: rgb(241, 35, 35);
+}
